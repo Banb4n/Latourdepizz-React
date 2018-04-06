@@ -72,9 +72,9 @@ class CardDishes extends React.Component<*> {
                         <Button size="small" color="primary">
                             {`${price} euros`}
                         </Button>
-                        <Button size="small" color="primary">
-                            <Icon style={{ fontSize: 30 }}>favorite</Icon>
-                        </Button>
+                        {/*<Button size="small" color="primary">*/}
+                            {/*<Icon style={{ fontSize: 30 }}>favorite</Icon>*/}
+                        {/*</Button>*/}
                     </CardActions>
                 </Card>
             </div>

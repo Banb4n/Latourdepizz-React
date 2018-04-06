@@ -9,7 +9,8 @@ class TheOpinions extends Component<*> {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: 'grey'
+            backgroundColor: 'grey',
+            margin: 20
         }
     });
     render() {

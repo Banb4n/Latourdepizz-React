@@ -1,14 +1,14 @@
 // @flow
 import React, { Component } from 'react';
 import { StyleSheet, css } from 'aphrodite';
-import Button from '../styleguide/Button'
-import zINDEX from '../styleguide/constStyles/zindex'
+import Button from '../styleguide/Button';
+import zINDEX from '../styleguide/constStyles/zindex';
+import TheOpinions from "../sections/TheOpinions";
 
 const styles = StyleSheet.create({
     introContainer: {
-        height: '20vh',
         width: '100%',
-        padding: '19px',
+        padding: '19px 0',
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
         zINDEX: zINDEX.front,
         position: 'absolute',
@@ -28,7 +28,7 @@ class Intro extends Component<*> {
         return (
             <section className={css(styles.introContainer)}>
                 <div className={css(styles.introContent)}>
-                    <p>Venez decouvrir notre restaurant</p>
+                    <TheOpinions />
                     <Button content={'Qui sommes nous'} className={styles.btnIntro} />
                 </div>
             </section>
