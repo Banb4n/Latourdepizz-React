@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import { StyleSheet, css } from 'aphrodite';
 import Button from '../styleguide/Button';
 import zINDEX from '../styleguide/constStyles/zindex';
-import TheOpinions from "../sections/TheOpinions";
 
 const styles = StyleSheet.create({
     introContainer: {
@@ -23,12 +22,11 @@ const styles = StyleSheet.create({
     }
 });
 
-class Intro extends Component<*> {
+class Intro extends Component<*, *> {
     render() {
         return (
             <section className={css(styles.introContainer)}>
                 <div className={css(styles.introContent)}>
-                    <TheOpinions />
                     <Button content={'Qui sommes nous'} className={styles.btnIntro} />
                 </div>
             </section>

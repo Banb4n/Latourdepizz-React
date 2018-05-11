@@ -10,6 +10,7 @@ import AboutUs from "./sections/AboutUs";
 import Specialities from "./sections/Specialities";
 import OurCards from "./sections/OurCards";
 import Modal from "./parts/modals"
+import TheOpinions from "./sections/TheOpinions";
 
 class App extends Component {
   render() {
@@ -18,11 +19,12 @@ class App extends Component {
           <NavbarApp />
           <Header />
           <Intro />
-          <Modal />
+          <TheOpinions />
           <AboutUs />
           <Specialities />
           <OurCards />
           <Footer />
+          <Modal />
       </div>
     );
   }

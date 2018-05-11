@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
         backgroundImage: `linear-gradient(
             rgba(5, 5, 5, 0.1), 
             rgba(5, 5, 5, 0.1)), 
-            url(https://scottsdalerealestate.com/wp-content/uploads/2016/05/412086.jpg)`,
+            url(https://s-media-cache-ak0.pinimg.com/originals/73/58/4e/73584e6883687bbeb0f65b8466c94dd3.gif)`,
         backgroundSize: 'cover'
     },
     headerContent: {
